@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Mayor</title>
+</head>
+<body>
+    <script>
+       
+        let valor1 = prompt('Digite el Primer Numero');
+        let valor2 = prompt('Diigte el Segundo numero');
+        let valor3 = prompt('Digite el Tercer numero');
+
+        
+        document.write("Primer Numero: "+valor1)
+        document.write("<br>Segundo Numero: "+valor2)
+        document.write("<br>Tercer Numero: "+valor3)
+        if(valor1>valor2){
+            if(valor1>valor3){
+                document.write("<br><br>El numero mayor es: "+valor1)
+            }else{
+                document.write("<br><br>El numero mayor es: "+valor3)
+            }
+        }else{
+            if(valor2>valor3){
+                document.write("<br><br>El numero mayor es: "+valor2)
+            }else{
+                document.write("<br><br>El numero mayor es: "+valor3)
+            }
+        }
+    </script>
+</body>
+</html>
